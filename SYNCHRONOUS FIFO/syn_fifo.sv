@@ -83,7 +83,7 @@ output logic full, empty, almost_full, almost_empty, rd_valid, wr_ready
     end
 endmodule
 
-/*
+///////////////////////////////////////////////////////////////
 module dual_port_ram
 # (parameter ADDR_WIDTH = 10, DATA_WIDTH=8)
 (
@@ -105,4 +105,3 @@ end
 
   
 endmodule
-*/
